@@ -30,3 +30,17 @@
         echo "<br>Student is Fail";
     }
 ?>
+<head>
+    <style>
+        body{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height: 100vh;
+            background-color: black;
+            color: black;
+            background-color: #ddc7cf;
+            font-size: 25px;
+        }
+    </style>
+</head>
