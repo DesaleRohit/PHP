@@ -21,4 +21,5 @@ $n2 = $_GET["n2"];
         $ans = $n1 / $n2;
     }
 
+echo " The Answer is = ".$ans;
 ?>
