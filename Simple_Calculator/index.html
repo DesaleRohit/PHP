@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <style>
+        body {
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: white;
+            color: black;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="index.php" method="GET">
+        <input type="text"  placeholder="Enter first number" id="n1" name="n1"/><br>
+        <input type="text" placeholder="Enter operator" id="op" name="op" /><br>
+        <input type="text" placeholder="Enter second number" id="n2" name="n2"/><br>
+        <input type="submit" value="Calculate">
+    </form>
+</body>
+
+</html>
