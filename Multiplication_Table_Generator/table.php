@@ -5,7 +5,7 @@
     for($i=1; $i<=10; $i++)
     {
         $ans = $nu * $i ;
-        echo $nu . " x " . $i . " = " . $ans . "<br>";
+     echo  $nu . " x " . $i . " = " . $ans . "<br>";
     }   
 
 ?>
