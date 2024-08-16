@@ -5,9 +5,9 @@
 
 <body>
     <form action="index.php" method="GET">
-        <label>Num 1:</label><input type="text" id="n1" name="n1"/><br>
-        <label>Operator: </label><input type="text" id="op" name="op" /><br>
-        <label>Num 2:</label><input type="text" id="n2" name="n2"/><br>
+        <input type="text"  placeholder="Enter first number" id="n1" name="n1"/><br>
+        <input type="text" placeholder="Enter operator" id="op" name="op" /><br>
+        <input type="text" placeholder="Enter second number" id="n2" name="n2"/><br>
         <input type="submit" value="Calculate">
     </form>
 </body>
