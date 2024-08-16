@@ -21,5 +21,21 @@ $n2 = $_GET["n2"];
         $ans = $n1 / $n2;
     }
 
-echo " The Answer is = ".$ans;
+echo "<p> The Answer is = $ans </p>";
 ?>
+<head>
+    <style>
+        body{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height: 100vh;
+            background-color: #ffc5c5;
+            color: black;
+        }
+
+        p{
+            font-size: 50px;
+        } 
+    </style>
+</head>
