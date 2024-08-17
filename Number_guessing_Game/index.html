@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>Number Guessing Game</title>
+    <style>
+        body {
+            background-color: #ffc9dd;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        input[type="number"] {
+            height: 50px;
+            width: 250px;
+            padding: 10px;
+            margin: 20px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 20px;
+            color: rgb(255, 48, 1);
+        }
+
+        input[type="submit"] {
+            height: 50px;
+            width: 150px;
+            padding: 10px;
+            margin: 20px;
+            border-radius: 20px;
+            text-align: center;
+            font-size: 20px;
+            color: rgb(0, 0, 0);
+            background-color: white;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: rgb(255, 48, 1);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 class="center">Number Guessing Game</h1>
+    <h3 class="center">Guess a number between 1 and 100</h3>
+    <form class="center" action="index.php" method="POST">
+        <input type="number" id="guess" name="guess" min="1" max="100"><br>
+        <input type="submit" value="Guess">
+    </form>
+</body>
+
+</html>
