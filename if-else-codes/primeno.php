@@ -1,5 +1,5 @@
 <?php
-    $n = $_POST["number"];
+    $n = $_GET["number"];
     $flag=1;
     if($n==1)
     {
