@@ -1,5 +1,6 @@
 <?php
     $n = $_POST["number"];
+    $flag=1;
     if($n==1)
     {
         $flag=1;
