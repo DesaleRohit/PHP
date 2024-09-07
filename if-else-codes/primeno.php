@@ -1,5 +1,5 @@
 <?php
-    $n = $_GET["number"];
+    $n = $_REQUEST["number"];
     $flag=1;
     if($n==1)
     {
@@ -18,10 +18,26 @@
     }
    if($flag==1)
     {
-        echo "The Number is Prime";
+        echo "<p>The Number is Prime</p>";
     }
     else
     {
-        echo "The Number is Not-Prime";
+        echo "<p>The Number is Not-Prime</p>";
     }
 ?>
+ <head>
+        <style>
+            body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+            color: black;
+            font-size: 5px;
+            }
+            p{
+              font-size: 55px; 
+              color: white;
+            }
+        </style>
