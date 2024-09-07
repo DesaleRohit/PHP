@@ -17,3 +17,17 @@
     }
   
 ?>
+<head>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: white;
+            color: red;
+            font-size: 45px;
+        }
+      
+    </style>
+</head>
