@@ -1,6 +1,6 @@
 <?php
 
-$n = $_GET["number"];
+$n = $_REQUEST["number"];
 
 $fact = 1;
 
