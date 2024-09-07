@@ -7,22 +7,22 @@ switch ($day) {
         echo "<p>Monday</p>";
         break;
     case 2:
-        echo "Tuesday";
+        echo "<p>Tuesday</p>";
         break;
     case 3:
-        echo "Wednesday";
+        echo "<p>Wednesday</p>";
         break;
     case 4:
-        echo "Thursday";
+        echo "<p>Thursday</p>";
         break;
     case 5:
-        echo "Friday";
+        echo "<p>Friday</p>";
         break;
     case 6:
-        echo "Saturday";
+        echo "<p>Saturday</p>";
         break;
     case 7:
-        echo "Sunday";
+        echo "<p>Sunday</p>";
         break;
     default:
         echo "Invalid Input";
@@ -37,7 +37,7 @@ switch ($day) {
             align-items: center;
             height: 100vh;
             background-color: black;
-            color: black;
+            color: white;
         }
         p {
             color: white;
