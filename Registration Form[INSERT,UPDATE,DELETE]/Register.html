@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+    <h1>Student Registration Form</h1>
+    <form action="Register.php" method="post">
+
+        Student ID(for Update/Delete): <input type="text" id="sid" name="sid" /><br><br>
+
+        Name: <input type="text" id="name" name="name" required /><br><br>
+
+        Mobile: <input type="text" id="mobile" name="mobile" required /><br><br>
+
+        Email: <input type="email" id="email" name="email" required /><br><br>
+
+        <input type="submit" name="action" value="INSERT">
+        <input type="submit" name="action" value="UPDATE">
+        <input type="submit" name="action" value="DELETE">
+    </form>
+</body>
+
+</html>
