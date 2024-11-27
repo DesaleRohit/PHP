@@ -7,19 +7,19 @@
     $email = $_POST['email'];
     $action = $_POST['action'];
 
-    if($action == "insert")
+    if($action == "INSERT")
     {
-        mysqli_query($db,"INSERT INTO studentinfo (name, mobile, email) VALUES ('$name', '$mobile', '$email')");
+        mysqli_query($db,"INSERT INTO studentinfo (id ,name, mobile, email) VALUES ( '$id','$name', '$mobile', '$email')");
         echo " New record inserted successfully";
     }
 
-    if($action == "update")
+    if($action == "UPDATE")
     {
         mysqli_query($db,"UPDATE studentinfo SET name='$name', mobile='$mobile', email='$email' WHERE id='$id'");
         echo " Record updated successfully";
     }
 
-    if($action == "delete")
+    if($action == "DELETE")
     {
         mysqli_query($db,"DELETE FROM studentinfo WHERE id='$id'");
         echo " Record deleted successfully";
