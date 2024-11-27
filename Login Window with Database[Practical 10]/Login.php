@@ -9,7 +9,7 @@
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    $result = mysqli_query($db, "SELECT * FROM user WHERE username = '$username' AND password = '$password'");
+    $result = mysqli_query($db, "SELECT * FROM users WHERE username = '$username' AND password = '$password'");
     if($result->num_rows > 0)
     {
         echo "Login Successful";
